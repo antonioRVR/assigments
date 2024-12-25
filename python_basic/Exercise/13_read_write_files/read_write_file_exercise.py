@@ -3,6 +3,8 @@
 # contains famous poem "Road not taken" by poet Robert Frost. You have to read this file in your python program and
 #  find out words with maximum occurance.
 
+
+#1
 with open("poem.txt", "r") as f:
     word_stats = {}
     for line in f:
