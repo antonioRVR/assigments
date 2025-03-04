@@ -1,23 +1,23 @@
-class Teacher:
-    def teachers_action(self):
-        print("I can teach")
+# ## Exercise: Multiple Inheritance
+
+# Real Life Example :
+# 1. Create multiple inheritance on teacher,student and youtuber.
 
 
-class Engineer:
-    def Engineers_action(self):
-        print("I can code")
+# ```
+# Q. if we have created teacher and now one student joins master degree with becoming teacher then what??
+
+# Ans :  just make subclass from  teacher so that student will become teacher
+# ```
+
+# 2. Now student is teacher as well as youtuber then what???
 
 
-class Youtuber:
-    def youtubers_action(self):
-        print("I can code and teach")
+# ```
+# -just use multiple inheritance for these three relations
+
+# ```
 
 
-class Person(Teacher, Engineer, Youtuber):
-    pass
 
-
-coder = Person()
-coder.teachers_action()
-coder.Engineers_action()
-coder.youtubers_action()
+# [Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/18_multiple_inheritance/18_multiple_inheritance.py)
